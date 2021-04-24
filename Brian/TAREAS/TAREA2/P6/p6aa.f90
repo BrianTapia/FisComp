@@ -33,8 +33,8 @@ PROGRAM p4b
 	y2 = 2.d0 - cos(phi1_0) - cos(phi2_0)
 	
 	! Pasos e intervalo de solución:
-	tf = 2.d0
-	h = 0.1d0; N = (tf - t0)/h
+	tf = 80.d0
+	h = 0.01d0; N = (tf - t0)/h
 	
 	open(66, file = 'espacio_phi.dat')
 	open(67, file = 'espacio_p.dat')
@@ -114,87 +114,48 @@ PROGRAM p4b
 	
 END PROGRAM p4b
 
-SUBROUTINE dphi1(phi1,phi2,p1,p2, valor)
-	USE modp4
+SUBROUTINE dphi1(phi1,phi2,p1,p2,F)
+	use modp4
 	implicit none
-	real(8),INTENT(IN) ::phi1, phi2, p1, p2
-	real(8),INTENT(OUT)::valor
+	real(8)::DP
+	real(8),INTENT(IN)::phi1,phi2,p1,p2
+	real(8),INTENT(OUT)::F
+	DP = phi1-phi2
 	
-	!real(8),parameter  ::m=1.d0, l=1.d0
-	!real(8)            ::f0, f1, f2, f3
-	
-	f0 = (phi1 - phi2)
-	f1 = 1.d0/(m*l**2.d0)
-	f2 = p1 - (p2*cos(f0))
-	f3 = 1.d0 + (sin(f0))**2.d0 
-	
-	valor = f1*(f2/f3)
+	F = (p1-p2*cos(DP))/(m*l*l*(1+(sin(DP))**2))
 END SUBROUTINE dphi1
 
-SUBROUTINE dphi2(phi1,phi2,p1,p2, valor)
-	USE modp4
+SUBROUTINE dphi2(phi1,phi2,p1,p2,F)
+	use modp4
 	implicit none
-	real(8),INTENT(IN) ::phi1, phi2, p1, p2
-	real(8),INTENT(OUT)::valor
+	real(8)::DP
+	real(8),INTENT(IN)::phi1,phi2,p1,p2
+	real(8),INTENT(OUT)::F
+	DP = phi1-phi2
 	
-	!real(8),parameter  ::m=1.d0, l=1.d0
-	!real(8)            ::f0, f1, f2, f3
-	
-	f0 = (phi1 - phi2)
-	f1 = 1.d0/(m*l**2.d0)
-	f2 = (2.d0*p2) - (p1*cos(f0))
-	f3 = 1.d0 + (sin(f0))**2.d0 
-	
-	valor = f1*(f2/f3)
+	F = (2*p2-p1*cos(DP))/(m*l*l*(1+(sin(DP))**2))
 END SUBROUTINE dphi2
 
-SUBROUTINE dp1(phi1,phi2,p1,p2, valor)
-	USE modp4
+SUBROUTINE dp1(phi1,phi2,p1,p2,F)
+	use modp4
 	implicit none
-	real(8),INTENT(IN) ::phi1, phi2, p1, p2
-	real(8),INTENT(OUT)::valor
-	!real(8),parameter  ::m=1.d0, l=1.d0, g=9.80665
-	!real(8)            ::f0, f1, f2, f3
+	real(8)::DP
+	real(8),INTENT(IN)::phi1,phi2,p1,p2
+	real(8),INTENT(OUT)::F
+	DP = phi1-phi2
 	
-	f0 = phi1 - phi2
-	f1 = 1.d0/(m*l**2.d0)
-	f2 = 1.d0 + (sin(f0))**2.d0 
-	call h(phi1,phi2,p1,p2, f3)
-	f4 = 2*m*g*l*sin(phi1)
-	
-	valor = f1*f2*f3-f4
+	F = (((p1**2+2*p2**2-2*p1*p2*cos(DP))/(1+(sin(DP))**2))*cos(DP)*sin(DP)-&
+	p1*p2*sin(DP))/(m*l*l*(1+(sin(DP))**2))-2*m*g*l*sin(phi1)
 END SUBROUTINE dp1
 
-SUBROUTINE dp2(phi1,phi2,p1,p2, valor)
-	USE modp4
+SUBROUTINE dp2(phi1,phi2,p1,p2,F)
+	use modp4
 	implicit none
-	real(8),INTENT(IN) ::phi1, phi2, p1, p2
-	real(8),INTENT(OUT)::valor
-	!real(8),parameter  ::m=1.d0, l=1.d0
+	real(8)::DP
+	real(8),INTENT(IN)::phi1,phi2,p1,p2
+	real(8),INTENT(OUT)::F
+	DP = phi1-phi2
 	
-	f0 = phi1 - phi2
-	f1 = 1.d0/(m*l**2.d0)
-	f2 = 1.d0 + (sin(f0))**2.d0 
-	call h(phi1,phi2,p1,p2, f3)
-	f4 = m*g*l*sin(phi2)
-	
-	valor = f1*f2*f3-f4
-
+	F = (((p1**2+2*p2**2-2*p1*p2*cos(DP))/(1+(sin(DP))**2))*cos(DP)*sin(DP)-&
+	p1*p2*sin(DP))/(m*l*l*(1+(sin(DP))**2))-m*g*l*sin(phi2)
 END SUBROUTINE dp2
-
-SUBROUTINE h(phi1,phi2,p1,p2, valor)
-	USE modp4
-	implicit none
-	real(8),INTENT(IN) ::phi1, phi2, p1, p2
-	real(8),INTENT(OUT)::valor
-	!real(8),parameter  ::m=1.d0, l=1.d0	
-	!real(8)            ::f0, f1, f2, f3, f4
-	
-	f0 = phi1 - phi2
-	f1 = p1*p2*sin(f0)
-	f2 = p1**2.d0 + 2.d0*(p2**2.d0) - 2.d0*p1*p2*cos(f0) 
-	f3 = 1.d0 + (sin(f0))**2.d0 
-	f4 = cos(f0)*sin(f0)
-	
-	valor = -f1 + (f2/f3)*f4
-END SUBROUTINE h

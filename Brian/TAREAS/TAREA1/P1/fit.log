@@ -1,0 +1,1256 @@
+
+
+*******************************************************************************
+Sun Mar 21 21:31:59 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1988.00 : 2000.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.4092900000e+03   0.00e+00  2.22e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 0.0000000000e+00  -inf       2.22e-05    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -6.42818e-18
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Sun Mar 21 21:34:57 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1988.00 : 2000.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       1.67e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       1.67e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Sun Mar 21 21:35:26 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1988.00 : 2000.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       1.67e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       1.67e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Sun Mar 21 21:37:38 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       1.67e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       1.67e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Sun Mar 21 22:21:37 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       1.67e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       1.67e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Sun Mar 21 22:22:27 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       1.67e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       1.67e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Sun Mar 21 22:22:48 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       1.67e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       1.67e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Sun Mar 21 22:23:19 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       1.67e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       1.67e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Sun Mar 21 22:25:36 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       1.67e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       1.67e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Sun Mar 21 22:26:46 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       1.67e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       1.67e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Mon Mar 29 23:23:54 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.4092900000e+03   0.00e+00  2.22e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 0.0000000000e+00  -inf       2.22e-05    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -6.42818e-18
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Wed Mar 31 01:20:30 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.4092900000e+03   0.00e+00  2.22e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 0.0000000000e+00  -inf       2.22e-05    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -6.42818e-18
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Wed Mar 31 06:45:19 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.4092900000e+03   0.00e+00  2.22e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 0.0000000000e+00  -inf       2.22e-05    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -6.42818e-18
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Wed Mar 31 06:46:19 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       1.67e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       1.67e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Wed Mar 31 06:50:48 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       1.67e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       1.67e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Wed Mar 31 06:56:51 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       1.67e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       1.67e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Wed Mar 31 07:03:19 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**3 + b*(x-1990)**2 + c*(x-1990) + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 6.4580020000e+04   0.00e+00  2.18e+02    3.312500e-01  -3.650000e+00   1.800000e+01   1.000000e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:03:32 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**3 + b*(x-1990)**2 + c*(x-1990) + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.2960000000e-03   0.00e+00  2.10e+01    1.961156e-15   3.312500e-01  -3.650000e+00   1.801800e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:03:48 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**3 + b*(x-1990)**2 + c*(x-1990) + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.2960000000e-03   0.00e+00  2.10e+01    1.961156e-15   3.312500e-01  -3.650000e+00   1.801800e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:03:51 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**3 + b*(x-1990)**2 + c*(x-1990) + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.2960000000e-03   0.00e+00  2.10e+01    1.961156e-15   3.312500e-01  -3.650000e+00   1.801800e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:03:52 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**3 + b*(x-1990)**2 + c*(x-1990) + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.2960000000e-03   0.00e+00  2.10e+01    1.961156e-15   3.312500e-01  -3.650000e+00   1.801800e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:03:53 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**3 + b*(x-1990)**2 + c*(x-1990) + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.2960000000e-03   0.00e+00  2.10e+01    1.961156e-15   3.312500e-01  -3.650000e+00   1.801800e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:03:54 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**3 + b*(x-1990)**2 + c*(x-1990) + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.2960000000e-03   0.00e+00  2.10e+01    1.961156e-15   3.312500e-01  -3.650000e+00   1.801800e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:03:54 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**3 + b*(x-1990)**2 + c*(x-1990) + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.2960000000e-03   0.00e+00  2.10e+01    1.961156e-15   3.312500e-01  -3.650000e+00   1.801800e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:04:25 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**3 + b*(x-1990)**2 + c*(x-1990) + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.2960000000e-03   0.00e+00  2.10e+01    1.961156e-15   3.312500e-01  -3.650000e+00   1.801800e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:04:55 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990)**1 + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.1767537500e+03   0.00e+00  2.55e+00    1.961156e-15   3.312500e-01  -3.650000e+00
+   3 1.1236000000e+02  -7.89e-01  2.55e-03    1.961156e-15   3.250003e-01   1.270000e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 112.36
+rel. change during last iteration : -7.89259e-06
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 10.6
+variance of residuals (reduced chisquare) = WSSR/ndf   : 112.36
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.96116e-15      +/- 0.01068      (5.447e+14%)
+b               = 0.325            +/- 1.874        (576.6%)
+c               = 12.7             +/- 9.676        (76.19%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.775  1.000 
+c               0.400 -0.775  1.000 
+
+
+*******************************************************************************
+Wed Mar 31 07:05:12 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990)**1 + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 8.4270017490e+01   0.00e+00  7.40e+00    1.961156e-15   3.250003e-01   1.270000e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:05:16 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990)**1 + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.8727457230e+01   0.00e+00  9.84e+00    1.961156e-15  -1.000000e+00   1.624957e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:05:30 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990)**1 + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.8727457509e+01   0.00e+00  9.84e+00    1.961156e-15  -1.000006e+00   1.624959e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:05:31 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990)**1 + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.8727457511e+01   0.00e+00  9.84e+00    1.961156e-15  -1.000006e+00   1.624959e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:05:31 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990)**1 + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.8727457511e+01   0.00e+00  9.84e+00    1.961156e-15  -1.000006e+00   1.624959e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:05:32 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990)**1 + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.8727457511e+01   0.00e+00  9.84e+00    1.961156e-15  -1.000006e+00   1.624959e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:05:32 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990)**1 + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.8727457511e+01   0.00e+00  9.84e+00    1.961156e-15  -1.000006e+00   1.624959e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:05:33 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990)**1 + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.8727457511e+01   0.00e+00  9.84e+00    1.961156e-15  -1.000006e+00   1.624959e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:05:33 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990)**1 + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.8727457511e+01   0.00e+00  9.84e+00    1.961156e-15  -1.000006e+00   1.624959e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:05:50 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.8727457511e+01   0.00e+00  9.84e+00    1.961156e-15  -1.000006e+00   1.624959e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:05:51 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.8727457511e+01   0.00e+00  9.84e+00    1.961156e-15  -1.000006e+00   1.624959e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:05:52 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.8727457511e+01   0.00e+00  9.84e+00    1.961156e-15  -1.000006e+00   1.624959e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:05:56 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 1.8727457511e+01   0.00e+00  9.84e+00    1.961156e-15  -1.000006e+00   1.624959e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:06:23 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.4092900000e+03   0.00e+00  2.22e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 0.0000000000e+00  -inf       2.22e-05    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -6.42818e-18
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Wed Mar 31 07:06:33 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990)**1 + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       1.67e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       1.67e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Wed Mar 31 07:06:52 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990)**1 + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 0.0000000000e+00  -nan       2.42e+01    3.312500e-01  -3.650000e+00   1.800000e+01
+   1 0.0000000000e+00  -nan       2.42e+00    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : 0
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
+
+
+*******************************************************************************
+Wed Mar 31 07:07:13 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**3 + b*(x-1990)**2 + c*(x-1990) + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 6.4580020000e+04   0.00e+00  2.18e+02    3.312500e-01  -3.650000e+00   1.800000e+01   1.000000e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:07:16 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**3 + b*(x-1990)**2 + c*(x-1990) + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 1.2960000000e-03   0.00e+00  2.10e+01    1.961156e-15   3.312500e-01  -3.650000e+00   1.801800e+01
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:07:19 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 7.1127312500e+02   0.00e+00  2.33e+00    1.961156e-15   3.312500e-01  -3.650000e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:07:29 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**3 + b*(x-1990)**2 + c*(x-1990) + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 3.8078773000e+06   0.00e+00  4.53e+02    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+  15 3.8887687184e-26   0.00e+00  4.53e+03    2.133370e-15   3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 15 iterations the fit converged.
+final sum of squares of residuals : 3.88877e-26
+rel. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.13337e-15    
+b               = 0.33125        
+c               = -3.65          
+d               = 18             
+
+
+*******************************************************************************
+Wed Mar 31 07:08:36 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 4
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**3 + b*(x-1990)**2 + c*(x-1990) + d
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d            
+   0 3.8887687184e-26   0.00e+00  2.10e+01    2.133370e-15   3.312500e-01  -3.650000e+00   1.800000e+01
+   3 3.3977816910e-26   0.00e+00  2.10e+00    2.133370e-15   3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 3.39778e-26
+rel. change during last iteration : 0
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 2.13337e-15    
+b               = 0.33125        
+c               = -3.65          
+d               = 18             
+
+
+*******************************************************************************
+Wed Mar 31 07:14:15 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 7.1127312500e+02   0.00e+00  2.33e+00    2.133370e-15   3.312500e-01  -3.650000e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Mar 31 07:14:21 2021
+
+
+FIT:    data read from file
+        format = z
+        x range restricted to [1978.00 : 2010.00]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: l(x)
+	l(x) = a*(x-1990)**2 + b*(x-1990) + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 4.4092900000e+03   0.00e+00  2.22e+01    1.000000e+00   1.000000e+00   1.000000e+00
+   6 0.0000000000e+00  -inf       2.22e-05    3.312500e-01  -3.650000e+00   1.800000e+01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -6.42818e-18
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+a               = 0.33125        
+b               = -3.65          
+c               = 18             
