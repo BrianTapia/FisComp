@@ -1,7 +1,7 @@
-MODULE modp4
+MODULE modphi4
 	real(8),parameter  ::m=1.d0, l=1.d0, g=9.80665
 	real(8)            ::f0, f1, f2, f3, f4
-END MODULE modp4
+END MODULE modphi4
 
 
 PROGRAM p4b
@@ -48,42 +48,40 @@ PROGRAM p4b
 	do i=1,N
 		t = t0+h
 		
-		write(6,*)'phi1', phi1_0
-		
-		call dphi1(phi1_0,phi2_0,p1_0,p2_0,phi1_k1)
-		call dphi2(phi1_0,phi2_0,p1_0,p2_0,phi2_k1)
-		call dp1(phi1_0,phi2_0,p1_0,p2_0,p1_k1)
-		call dp2(phi1_0,phi2_0,p1_0,p2_0,p2_k1)
+		call dphihi1(phi1_0,phi2_0,p1_0,p2_0,phi1_k1)
+		call dphihi2(phi1_0,phi2_0,p1_0,p2_0,phi2_k1)
+		call dphi1(phi1_0,phi2_0,p1_0,p2_0,p1_k1)
+		call dphi2(phi1_0,phi2_0,p1_0,p2_0,p2_k1)
 		
 		auxphi1 = phi1_0 + (h/2.d0)*phi1_k1
 		auxphi2 = phi2_0 + (h/2.d0)*phi2_k1
 		auxp1   = p1_0 + (h/2.d0)*p1_k1
 		auxp2   = p2_0 + (h/2.d0)*p2_k1
 		
-		call dphi1(auxphi1,auxphi2,auxp1,auxp2,phi1_k2)
-		call dphi2(auxphi1,auxphi2,auxp1,auxp2,phi2_k2)
-		call dp1(auxphi1,auxphi2,auxp1,auxp2,p1_k2)
-		call dp2(auxphi1,auxphi2,auxp1,auxp2,p2_k2)
+		call dphihi1(auxphi1,auxphi2,auxp1,auxp2,phi1_k2)
+		call dphihi2(auxphi1,auxphi2,auxp1,auxp2,phi2_k2)
+		call dphi1(auxphi1,auxphi2,auxp1,auxp2,p1_k2)
+		call dphi2(auxphi1,auxphi2,auxp1,auxp2,p2_k2)
 		
 		auxphi1 = phi1_0 + (h/2.d0)*phi1_k2
 		auxphi2 = phi2_0 + (h/2.d0)*phi2_k2
 		auxp1   = p1_0 + (h/2.d0)*p1_k2
 		auxp2   = p2_0 + (h/2.d0)*p2_k2
 		
-		call dphi1(auxphi1,auxphi2,auxp1,auxp2,phi1_k3)
-		call dphi2(auxphi1,auxphi2,auxp1,auxp2,phi2_k3)
-		call dp1(auxphi1,auxphi2,auxp1,auxp2,p1_k3)
-		call dp2(auxphi1,auxphi2,auxp1,auxp2,p2_k3)
+		call dphihi1(auxphi1,auxphi2,auxp1,auxp2,phi1_k3)
+		call dphihi2(auxphi1,auxphi2,auxp1,auxp2,phi2_k3)
+		call dphi1(auxphi1,auxphi2,auxp1,auxp2,p1_k3)
+		call dphi2(auxphi1,auxphi2,auxp1,auxp2,p2_k3)
 		
 		auxphi1 = phi1_0 + (h)*phi1_k3
 		auxphi2 = phi2_0 + (h)*phi2_k3
 		auxp1   = p1_0 + (h)*p1_k3
 		auxp2   = p2_0 + (h)*p2_k3
 		
-		call dphi1(auxphi1,auxphi2,auxp1,auxp2,phi1_k4)
-		call dphi2(auxphi1,auxphi2,auxp1,auxp2,phi2_k4)
-		call dp1(auxphi1,auxphi2,auxp1,auxp2,p1_k4)
-		call dp2(auxphi1,auxphi2,auxp1,auxp2,p2_k4)
+		call dphihi1(auxphi1,auxphi2,auxp1,auxp2,phi1_k4)
+		call dphihi2(auxphi1,auxphi2,auxp1,auxp2,phi2_k4)
+		call dphi1(auxphi1,auxphi2,auxp1,auxp2,p1_k4)
+		call dphi2(auxphi1,auxphi2,auxp1,auxp2,p2_k4)
 		
 		phi1_t = phi1_0 + (h/6.d0)*(phi1_k1 + 2.d0*phi1_k2 + 2.d0*phi1_k3 + phi1_k4)
 		phi2_t = phi2_0 + (h/6.d0)*(phi2_k1 + 2.d0*phi2_k2 + 2.d0*phi2_k3 + phi2_k4)
@@ -114,48 +112,48 @@ PROGRAM p4b
 	
 END PROGRAM p4b
 
-SUBROUTINE dphi1(phi1,phi2,p1,p2,F)
-	use modp4
+SUBROUTINE dphihi1(phi1,phi2,p1,p2,F)
+	use modphi4
 	implicit none
-	real(8)::DP
+	real(8)::dphi
 	real(8),INTENT(IN)::phi1,phi2,p1,p2
 	real(8),INTENT(OUT)::F
-	DP = phi1-phi2
+	dphi = phi1-phi2
 	
-	F = (p1-p2*cos(DP))/(m*l*l*(1+(sin(DP))**2))
+	F = (p1-p2*cos(dphi))/(m*l*l*(1+(sin(dphi))**2))
+END SUBROUTINE dphihi1
+
+SUBROUTINE dphihi2(phi1,phi2,p1,p2,F)
+	use modphi4
+	implicit none
+	real(8)::dphi
+	real(8),INTENT(IN)::phi1,phi2,p1,p2
+	real(8),INTENT(OUT)::F
+	dphi = phi1-phi2
+	
+	F = (2*p2-p1*cos(dphi))/(m*l*l*(1+(sin(dphi))**2))
+END SUBROUTINE dphihi2
+
+SUBROUTINE dphi1(phi1,phi2,p1,p2,F)
+	use modphi4
+	implicit none
+	real(8)::dphi
+	real(8),INTENT(IN)::phi1,phi2,p1,p2
+	real(8),INTENT(OUT)::F
+	dphi = phi1-phi2
+	
+	F = (((p1**2+2*p2**2-2*p1*p2*cos(dphi))/(1+(sin(dphi))**2))*cos(dphi)*sin(dphi)-&
+	p1*p2*sin(dphi))/(m*l*l*(1+(sin(dphi))**2))-2*m*g*l*sin(phi1)
 END SUBROUTINE dphi1
 
 SUBROUTINE dphi2(phi1,phi2,p1,p2,F)
-	use modp4
+	use modphi4
 	implicit none
-	real(8)::DP
+	real(8)::dphi
 	real(8),INTENT(IN)::phi1,phi2,p1,p2
 	real(8),INTENT(OUT)::F
-	DP = phi1-phi2
+	dphi = phi1-phi2
 	
-	F = (2*p2-p1*cos(DP))/(m*l*l*(1+(sin(DP))**2))
+	F = (((p1**2+2*p2**2-2*p1*p2*cos(dphi))/(1+(sin(dphi))**2))*cos(dphi)*sin(dphi)-&
+	p1*p2*sin(dphi))/(m*l*l*(1+(sin(dphi))**2))-m*g*l*sin(phi2)
 END SUBROUTINE dphi2
-
-SUBROUTINE dp1(phi1,phi2,p1,p2,F)
-	use modp4
-	implicit none
-	real(8)::DP
-	real(8),INTENT(IN)::phi1,phi2,p1,p2
-	real(8),INTENT(OUT)::F
-	DP = phi1-phi2
-	
-	F = (((p1**2+2*p2**2-2*p1*p2*cos(DP))/(1+(sin(DP))**2))*cos(DP)*sin(DP)-&
-	p1*p2*sin(DP))/(m*l*l*(1+(sin(DP))**2))-2*m*g*l*sin(phi1)
-END SUBROUTINE dp1
-
-SUBROUTINE dp2(phi1,phi2,p1,p2,F)
-	use modp4
-	implicit none
-	real(8)::DP
-	real(8),INTENT(IN)::phi1,phi2,p1,p2
-	real(8),INTENT(OUT)::F
-	DP = phi1-phi2
-	
-	F = (((p1**2+2*p2**2-2*p1*p2*cos(DP))/(1+(sin(DP))**2))*cos(DP)*sin(DP)-&
-	p1*p2*sin(DP))/(m*l*l*(1+(sin(DP))**2))-m*g*l*sin(phi2)
-END SUBROUTINE dp2
