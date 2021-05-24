@@ -21,11 +21,14 @@ PROGRAM P3A
 		write(6, *)'Número de puntos para grilla en x: '
 		read(5, *)Nx
 		h = L/Nx; Nt = int(tf/h)
+
+		print *, 'Entre aca'
 	else
 		write(6, *)'Número de puntos para grilla en t: '
 		read(5, *)Nt
 		h = tf/Nt; Nx = int(L/h)
 		write(6,*)tf, Nt, h
+		print *, 'Entre donde debería entrar'
 	endif
 
 	!Condiciones de frontera (x):
@@ -39,7 +42,10 @@ PROGRAM P3A
 
 	! Localiza la memoria para las funciones u(x, t) y D(x):
 	ALLOCATE(u(0: Nx, 0: Nt), D(0: Nx))
+	! Se inicializan como 0:
+	u = 0.d0; D = 0.d0
 
+	write(6,*)u
 	! Inicializa la red:
 	call red_inicial(C, L, s, x0, xL, h, Nx, Nt, u, D)
 
@@ -61,19 +67,16 @@ SUBROUTINE red_inicial(C, L, s, x0, xL, h, Nx, Nt, u, D)
 	INTEGER::i, j
 	REAL(8)::xi
 
-	! Se inicializan como 0:
-	u = 0.d0; D = 0.d0
-
 	! Condiciones de frontera en x:
 	u(:, 0)  = x0
-	u(:, Nt-1) = xL
+	u(:, Nt) = xL
 
 	! Condiciones dadas por u(x, 0):
 	do j = 1, Nt-1
 		xi = j*h
-		u(0, :) = 2
+		u(0, j) = 2.d0
 		write(6,*)j
-		!u(0, :) = C*exp((-(xi - L/2.d0)**2)/(s**2))
+		!u(0, j) = C*exp((-(xi - L/2.d0)**2)/(s**2))
 	enddo
 
 END SUBROUTINE red_inicial
