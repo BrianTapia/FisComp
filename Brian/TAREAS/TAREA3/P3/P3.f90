@@ -21,14 +21,10 @@ PROGRAM P3A
 		write(6, *)'Número de puntos para grilla en x: '
 		read(5, *)Nx
 		h = L/Nx; Nt = int(tf/h)
-
-		print *, 'Entre aca'
 	else
 		write(6, *)'Número de puntos para grilla en t: '
 		read(5, *)Nt
 		h = tf/Nt; Nx = int(L/h)
-		write(6,*)tf, Nt, h
-		print *, 'Entre donde debería entrar'
 	endif
 
 	!Condiciones de frontera (x):

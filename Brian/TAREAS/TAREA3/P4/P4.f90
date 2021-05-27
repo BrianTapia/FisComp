@@ -9,8 +9,6 @@ PROGRAM OsciladorCuantico
   real(8),parameter::HBAR = 6.58211d-16   ! eV*s
   real(8),parameter::c    = 2.99792d+18   ! AA/s
   real(8),parameter::MRED = 2.31637d+9/(c**2)    ! ev/c**2
-  !real(8),parameter::HBAR=1.d0  ! eV*s
-  !real(8),parameter::MRED=1.d0  ! ev/c**2
   real(8),parameter::V0 = 45.4521d0 ! eV
   real(8),parameter::V1 = 52.9406d0 ! eV
 
@@ -25,8 +23,9 @@ PROGRAM OsciladorCuantico
 
   open(unit = 1, file = "data_oscilador")
   open(unit = 2, file = "potencial")
+  open(unit = 3, file = "prob_u2")
 
-  N=1000; Nf=1000 !puntos en la malla
+  N=50; Nf=1000 !puntos en la malla
   do while(N.le.Nf)
 
      h   = (Rmax-Rmin)/N
@@ -64,7 +63,7 @@ PROGRAM OsciladorCuantico
      end do
 
      !resultados
-     write(6,"(i4,6(2x,F9.6))")N,d(1:10)
+     write(6,"(i4,10(2x,F9.6))")N,d(1:10)
 
      if(N.ge.Nf/2)then
         write(1, "('#',i4,6x,10(F10.6,1x))") N/2, d(1:10)
@@ -77,7 +76,11 @@ PROGRAM OsciladorCuantico
         !guardo
         do i=1,N
            xi=Rmin+i*h
-           write(1,"(11(F10.5,1x))")xi,A(i,1:10)**2.d0/tem(i)
+           ! para obtener las funciones de onda:
+           write(1,"(11(F10.5,1x))")xi,A(i,1:10)!**2.d0/tem(i)
+           ! para obtener el cuadrado de las funciones de onda normalizado:
+           write(3,"(11(F10.5,1x))")xi,A(i,1:10)**2.d0/tem(i)
+
         enddo
      end if
 
